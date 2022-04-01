@@ -178,6 +178,60 @@ p {
   font-size: 2rem;
 }
 
+/* Contact form*/
+.contact {
+  font-family: 'Cabin Sketch', sans-serif;
+  margin: 0;
+  padding-bottom: 1rem;
+  background-image: url('./assets/images/bkgnd-4.JPG');
+  background-size: cover;
+}
+
+.form--container {
+  background-color: rgb(49, 34, 68, 0.5);
+  color: #ffffff;
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+}
+.contact h2 {
+  font-size: 3rem;
+  margin: 0;
+  padding: 1rem;
+}
+
+.container--contact {
+  text-align: center;
+}
+
+.container--contact input {
+  width: 30rem;
+  height: 3rem;
+}
+
+.container--contact textarea {
+  width: 30rem;
+  height: 10rem;
+}
+
+.container--contact label {
+  display: block;
+  margin: 10px;
+  font-size: 2.5rem;
+}
+
+.container button {
+  background-color: #006466;
+  color: #fff;
+  padding: 1rem;
+  margin-top: 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 2rem;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 1500px) {
@@ -228,5 +282,25 @@ p {
     background-size: cover;
     background-position: 100%;
     height: 100%;
+  }
+
+  .resume--container {
+    background-position: 50%;
+  }
+
+  .form--container {
+    width: 80%;
+  }
+
+  .container--contact input {
+    width: 50%;
+  }
+
+  .container--contact textarea {
+    width: 50%;
+  }
+
+  .contact {
+    background-position: 50%;
   }
 }

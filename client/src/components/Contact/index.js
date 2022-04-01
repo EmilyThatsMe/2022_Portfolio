@@ -41,41 +41,43 @@ function ContactForm() {
     <section className="contact" id="contact">
       <div className="container container--contact">
         <h2>Contact</h2>
-        <form action="input" onSubmit={handleSubmit}>
-          <div className="form-item">
-            <label htmlFor="name">Name: </label>
-            <input
-              type="name"
-              name="name"
-              defaultValue={name}
-              onBlur={handleChange}
-            />
-          </div>
-          <div className="form-item">
-            <label htmlFor="email">Email: </label>
-            <input
-              type="email"
-              name="email"
-              defaultValue={email}
-              onBlur={handleChange}
-            />
-          </div>
-          <div className="form-item">
-            <label htmlFor="message">Message: </label>
-            <textarea
-              name="message"
-              rows="5"
-              defaultValue={message}
-              onBlur={handleChange}
-            />
-          </div>
-          {errorMessage && (
-            <div>
-              <p className="error-text">{errorMessage}</p>
+        <div className="form--container">
+          <form action="input" onSubmit={handleSubmit}>
+            <div className="form-item">
+              <label htmlFor="name">Name: </label>
+              <input
+                type="name"
+                name="name"
+                defaultValue={name}
+                onBlur={handleChange}
+              />
             </div>
-          )}
-          <button type="submit">Submit</button>
-        </form>
+            <div className="form-item">
+              <label htmlFor="email">Email: </label>
+              <input
+                type="email"
+                name="email"
+                defaultValue={email}
+                onBlur={handleChange}
+              />
+            </div>
+            <div className="form-item">
+              <label htmlFor="message">Message: </label>
+              <textarea
+                name="message"
+                rows="5"
+                defaultValue={message}
+                onBlur={handleChange}
+              />
+            </div>
+            {errorMessage && (
+              <div>
+                <p className="error-text">{errorMessage}</p>
+              </div>
+            )}
+            <button type="submit">Submit</button>
+          </form>
+        </div>
       </div>
     </section>
   );
