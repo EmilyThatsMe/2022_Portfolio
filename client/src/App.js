@@ -2,6 +2,8 @@ import React from 'react';
 import About from './components/About';
 import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
+import Contact from './components/Contact';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
         <main>
           <Route exact path="/" component={About}></Route>
           <Route exact path="/portfolio" component={Portfolio}></Route>
+          <Route exact path="/resume" component={Resume}></Route>
+          <Route exact path="/contact" component={Contact}></Route>
         </main>
       </div>
     </Router>

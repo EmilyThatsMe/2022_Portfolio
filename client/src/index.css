@@ -147,6 +147,37 @@ nav ul {
   color: rgb(253, 146, 253);
 }
 
+/* Resume */
+
+.resume--container {
+  font-family: 'Cabin Sketch', sans-serif;
+  text-align: center;
+  background-image: url('./assets/images/bkgnd-3.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 115vh;
+}
+
+.resume--container a {
+  color: #04f4f8;
+  font-size: 3rem;
+}
+
+.resume--container a:hover {
+  color: rgb(253, 146, 253);
+}
+
+.resume--header {
+  font-size: 3rem;
+  margin: 0;
+  padding: 1rem;
+}
+
+.skill--list,
+p {
+  font-size: 2rem;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 1500px) {
