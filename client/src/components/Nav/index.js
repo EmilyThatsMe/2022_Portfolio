@@ -10,10 +10,10 @@ function Nav() {
           </div>
           <ul>
             <li>
-              <a href="#about-me">About</a>
+              <a href="/">About</a>
             </li>
             <li>
-              <a href="#portfolio">Portfolio</a>
+              <a href="/portfolio">Portfolio</a>
             </li>
             <li>
               <a href="#resume">Resume</a>

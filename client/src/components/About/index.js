@@ -13,7 +13,11 @@ function About() {
         </h2>
       </div>
       <div className="about--img--container">
-        <img className="about--img" src={Image}></img>
+        <img
+          className="about--img"
+          alt="An extremely talented web dev"
+          src={Image}
+        ></img>
       </div>
       <div className="about--end">
         <h2>That's Me!</h2>

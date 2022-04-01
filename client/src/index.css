@@ -95,6 +95,58 @@ nav ul {
   left: 600px;
 }
 
+/* Portfolio */
+
+.portfolio--container {
+  background-image: url('./assets/images/bkgnd-2.JPG');
+  background-size: 100%;
+  background-repeat: repeat;
+  height: 100%;
+}
+
+.portfolio--container h2 {
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+  font-family: 'Cabin Sketch', sans-serif;
+  font-size: 3rem;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.img-thumbnail {
+  width: auto;
+  height: 300px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.img--container {
+  position: relative;
+}
+
+.img--container span {
+  position: absolute;
+  left: 0px;
+  top: 237px;
+  background-color: #006466;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.img--container span a {
+  color: #ffffff;
+}
+
+.img--container span a:hover {
+  color: rgb(253, 146, 253);
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 1500px) {
