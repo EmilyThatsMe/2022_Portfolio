@@ -6,17 +6,17 @@ function Nav() {
       <div className="main-head">
         <nav>
           <div className="header--logo">
-            <a href="/">Emily Thon</a>
+            <a href="2022_Portfolio/">Emily Thon</a>
           </div>
           <ul>
             <li>
-              <a href="/portfolio">Portfolio</a>
+              <a href="2022_Portfolio/portfolio">Portfolio</a>
             </li>
             <li>
-              <a href="/resume">Resume</a>
+              <a href="2022_Portfolio/resume">Resume</a>
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              <a href="2022_Portfolio/contact">Contact</a>
             </li>
           </ul>
         </nav>
