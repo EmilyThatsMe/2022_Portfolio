@@ -15,10 +15,10 @@ function App() {
       <div>
         <Nav></Nav>
         <main>
-          <Route exact path="/" component={About}></Route>
-          <Route exact path="/portfolio" component={Portfolio}></Route>
-          <Route exact path="/resume" component={Resume}></Route>
-          <Route exact path="/contact" component={Contact}></Route>
+          <Route path="/" component={About}></Route>
+          <Route path="/portfolio" component={Portfolio}></Route>
+          <Route path="/resume" component={Resume}></Route>
+          <Route path="/contact" component={Contact}></Route>
         </main>
         <footer>
           <a href="https://github.com/EmilyThatsMe">
