@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/photo-port/static/css/main.2f0ff2d4.css",
+    "main.js": "/photo-port/static/js/main.e3f380ab.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/photo-port/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/run.jpg": "/photo-port/static/media/run.2e16c005a9d6eaa5af10.jpg",
+    "static/media/Me.png": "/photo-port/static/media/Me.bc93f277cbf1be7400cc.png",
+    "static/media/kanye.jpg": "/photo-port/static/media/kanye.4a13b65ff07175c748ac.jpg",
+    "static/media/tracker.jpg": "/photo-port/static/media/tracker.9a0fb9eed8d5bf60895f.jpg",
+    "static/media/profile.jpg": "/photo-port/static/media/profile.6bd8091693b291f5af46.jpg",
+    "static/media/dog.jpg": "/photo-port/static/media/dog.1dd702d140ddadda20a3.jpg",
+    "static/media/bkgnd-4.JPG": "/photo-port/static/media/bkgnd-4.37dd174bbac40a4196ba.JPG",
+    "static/media/bkgnd-3.JPG": "/photo-port/static/media/bkgnd-3.1c02369f36e552c20e35.JPG",
+    "static/media/bkgnd-1.jpg": "/photo-port/static/media/bkgnd-1.1ab9698749d70b52e96e.jpg",
+    "static/media/quiz.jpg": "/photo-port/static/media/quiz.ee2655463fc748cecfb9.jpg",
+    "static/media/bkgnd-2.JPG": "/photo-port/static/media/bkgnd-2.90979a102d32aa15639b.JPG",
+    "static/media/iconmonstr-database-1-240.png": "/photo-port/static/media/iconmonstr-database-1-240.26f4d9703b1b4dad4122.png",
+    "index.html": "/photo-port/index.html",
+    "main.2f0ff2d4.css.map": "/photo-port/static/css/main.2f0ff2d4.css.map",
+    "main.e3f380ab.js.map": "/photo-port/static/js/main.e3f380ab.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/photo-port/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f0ff2d4.css",
+    "static/js/main.e3f380ab.js"
+  ]
+}
