@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Nav() {
   return (
@@ -6,17 +7,17 @@ function Nav() {
       <div className="main-head">
         <nav>
           <div className="header--logo">
-            <a href="/">Emily Thon</a>
+            <Link to="/">Emily Thon</Link>
           </div>
           <ul>
             <li>
-              <a href="/portfolio">Portfolio</a>
+              <Link to="/portfolio">Portfolio</Link>
             </li>
             <li>
-              <a href="/resume">Resume</a>
+              <Link to="/resume">Resume</Link>
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </nav>

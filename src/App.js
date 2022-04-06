@@ -1,21 +1,41 @@
 import React from 'react';
 import About from './components/About';
-import Nav from './components/Nav';
+//import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Github from './assets/images/iconmonstr-github-1-240.png';
 import Linkedin from './assets/images/iconmonstr-linkedin-5-240.png';
 import Stack from './assets/images/iconmonstr-database-1-240.png';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter, Router, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
+    <HashRouter basename="/">
       <div>
-        <Nav></Nav>
+        <header>
+          <div className="main-head">
+            <nav>
+              <div className="header--logo">
+                <Link to="/">Emily Thon</Link>
+              </div>
+              <ul>
+                <li>
+                  <Link to="/portfolio">Portfolio</Link>
+                </li>
+                <li>
+                  <Link to="/resume">Resume</Link>
+                </li>
+                <li>
+                  <Link to="/contact">Contact</Link>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
         <main>
-          <Route path="/" component={About}></Route>
+          <Route exact path="/" component={About}></Route>
           <Route path="/portfolio" component={Portfolio}></Route>
           <Route path="/resume" component={Resume}></Route>
           <Route path="/contact" component={Contact}></Route>
@@ -35,7 +55,7 @@ function App() {
           </a>
         </footer>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
