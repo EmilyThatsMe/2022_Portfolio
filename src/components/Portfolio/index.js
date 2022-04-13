@@ -32,11 +32,13 @@ function Portfolio() {
             alt="Note Taker Screenshot"
           ></img>
           <span>
-            <a href="https://emilythatsme.github.io/express-note-taker/">
+            <a href="https://guarded-anchorage-60502.herokuapp.com/">
               Full Stack Exercise Track - MERN
             </a>
             <br></br>
-            <a href="https://guarded-anchorage-60502.herokuapp.com/">Heroku</a>
+            <a href="https://github.com/EmilyThatsMe/Full_Stack_Exercise_Track">
+              Github
+            </a>
           </span>
         </div>
         <div className="img--container">

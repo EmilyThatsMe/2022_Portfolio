@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Image from '../../assets/images/Me.png';
 
 function About() {
@@ -9,7 +10,8 @@ function About() {
         <h2 className="about--h2">
           I'm a web Developer based in the Twin Cities, MN.
           <br />
-          Interested in working with me? Contact me Here!
+          Interested in working with me? Contact me{' '}
+          <Link to="/contact">Here!</Link>
         </h2>
       </div>
       <div className="about--img--container">

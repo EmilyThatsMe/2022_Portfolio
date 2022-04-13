@@ -50,7 +50,16 @@ nav ul {
   justify-content: space-around;
   align-items: center;
   font-size: 1.8rem;
-}
+  }
+
+  nav ul li {
+    transition-duration: 500ms;
+  }
+
+  nav ul li:hover {
+    font-size: 3rem;
+  }
+
 
 /* About Section */
 
@@ -77,6 +86,16 @@ nav ul {
   font-size: 2rem;
 }
 
+.about--h2 a {
+  color:#006466;
+  font-size: 2.5rem;
+  transition-duration: 250ms;
+}
+
+.about--h2 a:hover {
+  font-size: 3rem;
+}
+
 .about--img--container {
   margin: auto;
   flex: 1 1 50px;
@@ -86,6 +105,29 @@ nav ul {
   max-width: 400px;
   margin-right: 5rem;
   margin-bottom: 5rem;
+  animation: rotation 3s infinite linear;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(10deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  75% {
+    transform: rotate(-10deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 .about--end {
@@ -161,10 +203,11 @@ nav ul {
 .resume--container a {
   color: #04f4f8;
   font-size: 3rem;
+  transition-duration: 250ms;
 }
 
 .resume--container a:hover {
-  color: rgb(253, 146, 253);
+  color: rgb(149, 9, 149);
 }
 
 .resume--header {
@@ -185,6 +228,7 @@ p {
   padding-bottom: 1rem;
   background-image: url('./assets/images/bkgnd-4.JPG');
   background-size: cover;
+  height: 100vh;
 }
 
 .form--container {
