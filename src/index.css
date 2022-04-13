@@ -274,6 +274,12 @@ p {
   border: none;
   border-radius: 5px;
   font-size: 2rem;
+  transition: 200ms;
+}
+
+.container button:hover {
+  cursor: pointer;
+  background: #4d194d;
 }
 
 /* Footer */
