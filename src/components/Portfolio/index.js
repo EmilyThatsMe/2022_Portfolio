@@ -24,6 +24,7 @@ function Portfolio() {
             <br></br>
             <a href="https://github.com/Concord511/Quote-Battle">Github</a>
           </span>
+          <p>A timed quiz to guess if a quote is from Kanye</p>
         </div>
         <div className="img--container">
           <img
@@ -40,6 +41,9 @@ function Portfolio() {
               Github
             </a>
           </span>
+          <p>
+            An exercise tracking web app where users can log and view exercises
+          </p>
         </div>
         <div className="img--container">
           <img
@@ -54,6 +58,7 @@ function Portfolio() {
             <br></br>
             <a href="https://github.com/cassie-s/the-dog-blog">Github</a>
           </span>
+          <p>Blog where users can comment on and rank ugly dogs</p>
         </div>
         <div className="img--container">
           <img
@@ -70,6 +75,7 @@ function Portfolio() {
               Github
             </a>
           </span>
+          <p>Computer program for adding, deleting, and managing employees</p>
         </div>
         <div className="img--container">
           <img
@@ -84,6 +90,7 @@ function Portfolio() {
             <br></br>
             <a href="https://github.com/EmilyThatsMe/code-quiz">Github</a>
           </span>
+          <p>Timed quiz on web development</p>
         </div>
         <div className="img--container">
           <img
@@ -98,6 +105,7 @@ function Portfolio() {
             <br></br>
             <a href="https://github.com/EmilyThatsMe/run-buddy">Github</a>
           </span>
+          <p>Web page for a physical training business</p>
         </div>
       </div>
     </section>

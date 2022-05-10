@@ -8,10 +8,14 @@ function About() {
       <div className="about--text">
         <h1 className="about--header">Hi, I'm Emily!</h1>
         <h2 className="about--h2">
-          I'm a web Developer based in the Twin Cities, MN.
+          I'm a full stack web Developer based in the Twin Cities, MN.
           <br />
-          Interested in working with me? Contact me{' '}
-          <Link to="/contact">Here!</Link>
+          I'm passionate about front end design and implementation, and I enjoy
+          learning new technologies and languages.
+          <br />
+          <br />
+          Interested in working with me? Contact me at{' '}
+          <a href="mailto: emilython33@gmail.com">emilython33@gmail.com</a>
         </h2>
       </div>
       <div className="about--img--container">

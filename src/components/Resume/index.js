@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Resume() {
   return (
@@ -17,7 +18,12 @@ function Resume() {
         </ul>
       </div>
       <p>
-        To check out my full resume, check out my linkedIn page{' '}
+        Download a PDF of my resume{' '}
+        <a href="/assets/2022_Resume.pdf" download>
+          HERE
+        </a>
+        <br />
+        Check out my linkedIn page{' '}
         <a href="https://www.linkedin.com/in/emmykay/">HERE</a>
       </p>
     </section>

@@ -83,17 +83,17 @@ nav ul {
 }
 
 .about--h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .about--h2 a {
   color:#006466;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   transition-duration: 250ms;
 }
 
 .about--h2 a:hover {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .about--img--container {
@@ -154,6 +154,14 @@ nav ul {
   font-size: 3rem;
 }
 
+.portfolio--container p {
+    font-family: 'Cabin Sketch',
+    sans-serif;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
 .flex-row {
   display: flex;
   justify-content: center;
@@ -164,7 +172,7 @@ nav ul {
 .img-thumbnail {
   width: auto;
   height: 300px;
-  margin-bottom: 50px;
+  margin-bottom: 5px;
   cursor: pointer;
 }
 
@@ -189,6 +197,8 @@ nav ul {
   color: rgb(253, 146, 253);
 }
 
+
+
 /* Resume */
 
 .resume--container {
@@ -201,7 +211,7 @@ nav ul {
 }
 
 .resume--container a {
-  color: #04f4f8;
+  color: #c704f8;
   font-size: 3rem;
   transition-duration: 250ms;
 }
