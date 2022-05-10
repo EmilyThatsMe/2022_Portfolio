@@ -19,7 +19,10 @@ function Resume() {
       </div>
       <p>
         Download a PDF of my resume{' '}
-        <a href="/assets/2022_Resume.pdf" download>
+        <a
+          href="https://docs.google.com/document/d/e/2PACX-1vRJHWCb67_n9PllOogUfzpYvHX_RlQ7Oe4tavrmy15ZFFLlUSZk8RT8Plzl6ZvFzhnAcflw9XWodjwq/pub"
+          download
+        >
           HERE
         </a>
         <br />
