@@ -49,7 +49,7 @@ function App() {
             {' '}
             <img alt="linkedin icon" src={Linkedin}></img>
           </a>
-          <a href="#">
+          <a href="https://stackoverflow.com/users/16336976/emilythatsme">
             {' '}
             <img alt="stack overflow icon" src={Stack}></img>
           </a>
