@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/2022_Portfolio/static/css/main.d5e222ca.css",
-    "main.js": "/2022_Portfolio/static/js/main.23b0edc2.js",
+    "main.css": "/2022_Portfolio/static/css/main.2cbf58de.css",
+    "main.js": "/2022_Portfolio/static/js/main.7a27fb92.js",
     "static/js/787.c4e7f8f9.chunk.js": "/2022_Portfolio/static/js/787.c4e7f8f9.chunk.js",
     "static/media/run.jpg": "/2022_Portfolio/static/media/run.2e16c005a9d6eaa5af10.jpg",
     "static/media/Me.png": "/2022_Portfolio/static/media/Me.bc93f277cbf1be7400cc.png",
@@ -16,12 +16,12 @@
     "static/media/bkgnd-2.JPG": "/2022_Portfolio/static/media/bkgnd-2.90979a102d32aa15639b.JPG",
     "static/media/iconmonstr-database-1-240.png": "/2022_Portfolio/static/media/iconmonstr-database-1-240.26f4d9703b1b4dad4122.png",
     "index.html": "/2022_Portfolio/index.html",
-    "main.d5e222ca.css.map": "/2022_Portfolio/static/css/main.d5e222ca.css.map",
-    "main.23b0edc2.js.map": "/2022_Portfolio/static/js/main.23b0edc2.js.map",
+    "main.2cbf58de.css.map": "/2022_Portfolio/static/css/main.2cbf58de.css.map",
+    "main.7a27fb92.js.map": "/2022_Portfolio/static/js/main.7a27fb92.js.map",
     "787.c4e7f8f9.chunk.js.map": "/2022_Portfolio/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5e222ca.css",
-    "static/js/main.23b0edc2.js"
+    "static/css/main.2cbf58de.css",
+    "static/js/main.7a27fb92.js"
   ]
 }
